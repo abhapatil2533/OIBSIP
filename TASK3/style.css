@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: rgb(222, 198, 167);
+}
+
+h1 {
+    color: #251d1d;
+}
+header { 
+    text-align: center;
+    border-radius: 4px; 
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+.task-input {
+    display: flex;
+    margin-bottom: 20px;
+}
+.task-input input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #774646;
+    border-radius: 4px;
+}
+.task-input button {
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    border: none;
+    background-color: #774646;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.task-input button:hover {
+    background-color: #432727;
+}
+.task-list {
+    margin-bottom: 30px;
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(222, 203, 179);
+    padding: 10px;
+    border: 2px solid #4d2d2e;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.task.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+.task button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.task .edit {
+    background-color: #ffc107;
+    color: #fff;
+}
+.task .edit:hover {
+    background-color: #e0a800;
+}
+.task .delete {
+    background-color: #dc3545;
+    color: #fff;
+}
+.task .delete:hover {
+    background-color: #c82333;
+}
+.task .complete {
+    background-color: #28a745;
+    color: #fff;
+}
+.task .complete:hover {
+    background-color: #218838;
+}
